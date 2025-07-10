@@ -1,6 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-	--color-chatPurple: #913BFF;
-	--color-chatPink: #E243FF;
+	--color-chatPurple: #933bff;
+	--color-chatPink: #df45ff;
+	--color-chatBoxBg: #ede5f4;
+	--color-chatBoxText: #9878a9;
+	--color-chatBg: #f5f3f8;
 }

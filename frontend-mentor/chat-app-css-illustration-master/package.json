@@ -4,13 +4,14 @@
   "description": "![Design preview for the Chat app CSS illustration coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "build": "npx @tailwindcss/cli -i ./src/css/input.css -o ./src/css/output.css",
-    "watch": "npx @tailwindcss/cli -i ./src/css/input.css -o ./src/css/output.css --watch"
+    "twcss-build": "npx @tailwindcss/cli -i ./src/css/input.css -o ./src/css/output.css",
+    "twcss-watch": "npx @tailwindcss/cli -i ./src/css/input.css -o ./src/css/output.css --watch"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Mark S Kelly",
+  "license": "UNLICENSED",
   "dependencies": {
     "@tailwindcss/cli": "^4.1.10",
+    "lucide-static": "^0.525.0",
     "tailwindcss": "^4.1.10"
   }
 }
