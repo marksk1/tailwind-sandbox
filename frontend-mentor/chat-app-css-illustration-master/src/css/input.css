@@ -1,9 +1,63 @@
 @import "tailwindcss";
 
-@theme {
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+/* @theme {
 	--color-chatPurple: #933bff;
 	--color-chatPink: #df45ff;
 	--color-chatBoxBg: #ede5f4;
 	--color-chatBoxText: #9878a9;
 	--color-chatBg: #f5f3f8;
+} */
+
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@theme {
+
+	--breakpoint-sm: 375px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 976px;
+  --breakpoint-xl: 1440px;
+
+	--font-rubik: "Rubik", sans-serif;
+
+	--color-chatBoxBg: #ede5f4;
+	--color-pale-violet: hsl(276, 100%, 81%);
+	--color-moderate-violet: hsl(276, 55%, 52%);
+	--color-desaturated-dark-violet: hsl(271, 15%, 43%);
+	--color-grayish-blue: hsl(206, 6%, 79%);
+	--color-very-dark-desaturated-violet: hsl(271, 36%, 24%);
+	--color-dark-grayish-violet: hsl(270, 7%, 64%);
+	--color-light-magenta: hsl(293, 100%, 63%);
+	--color-light-violet: hsl(264, 100%, 61%);
+	--color-white: hsl(0, 0%, 100%);
+	--color-light-grayish-violet: hsl(270, 20%, 96%);
+	--color-very-light-magenta: hsl(289, 100%, 72%);
+
 }
+
+/* @layer components {
+  .text-pale-violet { color: var(--color-pale-violet); }
+  .text-moderate-violet { color: var(--color-moderate-violet); }
+  .text-desaturated-dark-violet { color: var(--color-desaturated-dark-violet); }
+  .text-grayish-blue { color: var(--color-grayish-blue); }
+  .text-very-dark-desaturated-violet { color: var(--color-very-dark-desaturated-violet); }
+  .text-dark-grayish-violet { color: var(--color-dark-grayish-violet); }
+  .bg-gradient { background: linear-gradient(var(--color-light-magenta), var(--color-light-violet)); }
+  .bg-white { background-color: var(--color-white); }
+  .bg-light-grayish-violet { background-color: var(--color-light-grayish-violet); }
+  .bg-very-dark-desaturated-violet { background-color: var(--color-very-dark-desaturated-violet); }
+  .border-very-light-magenta { border-color: var(--color-very-light-magenta); }
+} */
+
+/* @layer utilities {
+  @media (min-width: 375px) {
+    .mob\:text-base { font-size: 1rem; }
+  }
+  @media (min-width: 1440px) {
+    .dsk\:text-lg { font-size: 1.125rem; }
+  }
+} */
